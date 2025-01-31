@@ -1,0 +1,1 @@
+To improve the performance of the query, consider alternative approaches if possible. If you must use the wildcard at the beginning, ensure that the column is indexed appropriately, depending on your database system. Some databases may offer full-text search options that are better suited to such queries.  In some cases, restructuring the database schema may improve performance.
