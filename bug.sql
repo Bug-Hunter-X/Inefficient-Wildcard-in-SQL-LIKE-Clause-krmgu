@@ -1,0 +1,1 @@
+The SQL query uses a wildcard character (%) at the beginning of a LIKE clause pattern, such as `LIKE '%value'`.  While this is often used to find values containing a substring, it can lead to performance issues, especially with large datasets. The database engine might need to perform a full table scan to find all rows that match the pattern.
